@@ -1,4 +1,4 @@
-import fastObjectDiff from "../../app/src/fastObjectDiff"
+// import fastObjectDiff from "../../app/src/fastObjectDiff"
 
 describe("core", () => {
   

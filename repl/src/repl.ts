@@ -1,4 +1,11 @@
-import fastObjectDiff from "../../app/src/fastObjectDiff"
-//const testElem = document.querySelector("#test")
+import diff from "../../app/src/fastObjectDiff"
 
-fastObjectDiff()
+console.log(diff.flat({
+  a: "qwe", 
+  nested: 22
+}, {
+  a: "qwe",
+  nested: {e: 123},
+  b: 2
+}))
+
