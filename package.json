@@ -4,9 +4,6 @@
   "description": "Flat and deep object diffs with filers.",
   "main": "./app/dist/esm/fastObjectDiff.js",
   "types": "./app/dist/esm/fastObjectDiff.d.ts",
-  "bin": {
-    "fast-object-diff": "app/dist/esm/cli/fastObjectDiff-cli.js"
-  },
   "exports": {
     "node": {
       "import": "./app/dist/esm/fastObjectDiff.js",
